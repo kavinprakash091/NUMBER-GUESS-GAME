@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.index-page {
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  width: 70%;
+  margin: 5% auto;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+.game-description {
+  width: 100%;
+  margin-top: 5%;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.form-container {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.form-container label {
+  font-size: 1.2rem;
+}
+
+.previous-guess {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.message-box {
+  display: none;
+  width: 70%;
+  margin-top: 3%;
+  padding: 3%;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: rgb(240, 111, 111);
+}
